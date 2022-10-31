@@ -1,122 +1,118 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: hsl(30, 38%, 92%)
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(30, 38%, 92%);
 }
 
-.container{
-    width: 500px;
-    height: 375px;
-    display: flex;
-    background-color: ;
-    border-radius: 10px;
-    
+.container {
+  width: 500px;
+  height: 375px;
+  display: flex;
+  background-color: ;
+  border-radius: 10px;
 }
-.img img{
-    border-radius: 8px 0 0 8px;
-    max-width: 250px; 
-    max-height: 375px;
-}
-
-.heading{
-    margin-bottom: 1.4em;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.8em;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-    color: hsl(228, 12%, 48%);
-    
-}
-.name{
-    line-height: 1em;
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
-    font-size: 1.75em;
-    
-}
-.info{
-    margin: 20px auto 10px;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 20px;
-    font-size: 0.75em;
-    font-weight: 500;
-    color: hsl(228, 12%, 48%);
-}
-.text{
-    padding: 1.5em;
-    border-radius: 0 8px 8px 0;
-    background-color: hsl(0, 0%, 100%);
-    display: block;
-    justify-content: center;
-    align-items: center;
+.img img {
+  border-radius: 8px 0 0 8px;
+  max-width: 250px;
+  max-height: 375px;
 }
 
-.price{
-    margin-top: 20px;
-    display: flex;
-    gap: 8%;
+.heading {
+  margin-bottom: 1.4em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: hsl(228, 12%, 48%);
 }
-.price .new_price{
-    color: hsl(158, 36%, 37%);
-    font-size: 1.8em;
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
+.name {
+  line-height: 1em;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 1.75em;
 }
-
-.price .old_price{
-    color: hsl(228, 12%, 48%);
-    justify-content: center;
-    margin-top: 11px;
-    margin-right: 7px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.7em;
-    text-decoration: line-through;
-    
+.info {
+  margin: 20px auto 10px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  font-size: 0.75em;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
 }
-
-.cart{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    text-align: center;
-    margin: 20px auto 10px;
-    height: 12%;
-    width: 100%;
-    background-color: hsl(158, 36%, 37%);
-    border-radius: 8px;
-    gap: 8px;
-    transition: 0.5s;
-}
-.cart a{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.8em;
-    color:  hsl(0, 0%, 100%);
-    border: none;
-    text-decoration: none;
-    background-color: transparent;
-}
-.cart img{
-    scale: 0.9;
+.text {
+  padding: 1.5em;
+  border-radius: 0 8px 8px 0;
+  background-color: hsl(0, 0%, 100%);
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 
-.cart:hover{
-    background-color: hsl(212, 21%, 14%);
+.price {
+  margin-top: 20px;
+  display: flex;
+  gap: 8%;
+}
+.price .new_price {
+  color: hsl(158, 36%, 37%);
+  font-size: 1.8em;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+
+.price .old_price {
+  color: hsl(228, 12%, 48%);
+  justify-content: center;
+  margin-top: 11px;
+  margin-right: 7px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7em;
+  text-decoration: line-through;
+}
+
+.cart {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  margin: 20px auto 10px;
+  height: 12%;
+  width: 100%;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 8px;
+  gap: 8px;
+  transition: 0.5s ease;
+}
+.cart a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8em;
+  color: hsl(0, 0%, 100%);
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+.cart img {
+  scale: 0.9;
+}
+
+.cart:hover {
+  background-color: hsl(212, 21%, 14%);
+  scale: 110%;
 }
 
 .attribution {
-    font-size: 11px; text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
